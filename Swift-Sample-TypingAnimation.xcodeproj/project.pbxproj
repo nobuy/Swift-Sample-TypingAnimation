@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		561824DF22316E0500A4BF89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561824DE22316E0500A4BF89 /* AppDelegate.swift */; };
+		561824E122316E0500A4BF89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561824E022316E0500A4BF89 /* ViewController.swift */; };
+		561824E622316E0700A4BF89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561824E522316E0700A4BF89 /* Assets.xcassets */; };
+		561824E922316E0700A4BF89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561824E722316E0700A4BF89 /* LaunchScreen.storyboard */; };
+		561824F422316E0700A4BF89 /* Swift_Sample_TypingAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561824F322316E0700A4BF89 /* Swift_Sample_TypingAnimationTests.swift */; };
+		561824FF22316E0700A4BF89 /* Swift_Sample_TypingAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561824FE22316E0700A4BF89 /* Swift_Sample_TypingAnimationUITests.swift */; };
+		5659CC432232AA00003A6363 /* TypingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5659CC422232AA00003A6363 /* TypingAnimationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		561824F022316E0700A4BF89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561824D322316E0500A4BF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561824DA22316E0500A4BF89;
+			remoteInfo = "Swift-Sample-TypingAnimation";
+		};
+		561824FB22316E0700A4BF89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561824D322316E0500A4BF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561824DA22316E0500A4BF89;
+			remoteInfo = "Swift-Sample-TypingAnimation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		561824DB22316E0500A4BF89 /* Swift-Sample-TypingAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Sample-TypingAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		561824DE22316E0500A4BF89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		561824E022316E0500A4BF89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		561824E522316E0700A4BF89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		561824E822316E0700A4BF89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		561824EA22316E0700A4BF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561824EF22316E0700A4BF89 /* Swift-Sample-TypingAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Sample-TypingAnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		561824F322316E0700A4BF89 /* Swift_Sample_TypingAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Sample_TypingAnimationTests.swift; sourceTree = "<group>"; };
+		561824F522316E0700A4BF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561824FA22316E0700A4BF89 /* Swift-Sample-TypingAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Sample-TypingAnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		561824FE22316E0700A4BF89 /* Swift_Sample_TypingAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Sample_TypingAnimationUITests.swift; sourceTree = "<group>"; };
+		5618250022316E0700A4BF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5659CC422232AA00003A6363 /* TypingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingAnimationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561824D822316E0500A4BF89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561824EC22316E0700A4BF89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561824F722316E0700A4BF89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		561824D222316E0500A4BF89 = {
+			isa = PBXGroup;
+			children = (
+				561824DD22316E0500A4BF89 /* Swift-Sample-TypingAnimation */,
+				561824F222316E0700A4BF89 /* Swift-Sample-TypingAnimationTests */,
+				561824FD22316E0700A4BF89 /* Swift-Sample-TypingAnimationUITests */,
+				561824DC22316E0500A4BF89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		561824DC22316E0500A4BF89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				561824DB22316E0500A4BF89 /* Swift-Sample-TypingAnimation.app */,
+				561824EF22316E0700A4BF89 /* Swift-Sample-TypingAnimationTests.xctest */,
+				561824FA22316E0700A4BF89 /* Swift-Sample-TypingAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		561824DD22316E0500A4BF89 /* Swift-Sample-TypingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				561824DE22316E0500A4BF89 /* AppDelegate.swift */,
+				561824E022316E0500A4BF89 /* ViewController.swift */,
+				561824E522316E0700A4BF89 /* Assets.xcassets */,
+				561824E722316E0700A4BF89 /* LaunchScreen.storyboard */,
+				561824EA22316E0700A4BF89 /* Info.plist */,
+				5659CC422232AA00003A6363 /* TypingAnimationView.swift */,
+			);
+			path = "Swift-Sample-TypingAnimation";
+			sourceTree = "<group>";
+		};
+		561824F222316E0700A4BF89 /* Swift-Sample-TypingAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				561824F322316E0700A4BF89 /* Swift_Sample_TypingAnimationTests.swift */,
+				561824F522316E0700A4BF89 /* Info.plist */,
+			);
+			path = "Swift-Sample-TypingAnimationTests";
+			sourceTree = "<group>";
+		};
+		561824FD22316E0700A4BF89 /* Swift-Sample-TypingAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				561824FE22316E0700A4BF89 /* Swift_Sample_TypingAnimationUITests.swift */,
+				5618250022316E0700A4BF89 /* Info.plist */,
+			);
+			path = "Swift-Sample-TypingAnimationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		561824DA22316E0500A4BF89 /* Swift-Sample-TypingAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5618250322316E0700A4BF89 /* Build configuration list for PBXNativeTarget "Swift-Sample-TypingAnimation" */;
+			buildPhases = (
+				561824D722316E0500A4BF89 /* Sources */,
+				561824D822316E0500A4BF89 /* Frameworks */,
+				561824D922316E0500A4BF89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-Sample-TypingAnimation";
+			productName = "Swift-Sample-TypingAnimation";
+			productReference = 561824DB22316E0500A4BF89 /* Swift-Sample-TypingAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		561824EE22316E0700A4BF89 /* Swift-Sample-TypingAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5618250622316E0700A4BF89 /* Build configuration list for PBXNativeTarget "Swift-Sample-TypingAnimationTests" */;
+			buildPhases = (
+				561824EB22316E0700A4BF89 /* Sources */,
+				561824EC22316E0700A4BF89 /* Frameworks */,
+				561824ED22316E0700A4BF89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561824F122316E0700A4BF89 /* PBXTargetDependency */,
+			);
+			name = "Swift-Sample-TypingAnimationTests";
+			productName = "Swift-Sample-TypingAnimationTests";
+			productReference = 561824EF22316E0700A4BF89 /* Swift-Sample-TypingAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		561824F922316E0700A4BF89 /* Swift-Sample-TypingAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5618250922316E0700A4BF89 /* Build configuration list for PBXNativeTarget "Swift-Sample-TypingAnimationUITests" */;
+			buildPhases = (
+				561824F622316E0700A4BF89 /* Sources */,
+				561824F722316E0700A4BF89 /* Frameworks */,
+				561824F822316E0700A4BF89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561824FC22316E0700A4BF89 /* PBXTargetDependency */,
+			);
+			name = "Swift-Sample-TypingAnimationUITests";
+			productName = "Swift-Sample-TypingAnimationUITests";
+			productReference = 561824FA22316E0700A4BF89 /* Swift-Sample-TypingAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		561824D322316E0500A4BF89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "A10 Lab Inc. nobuy";
+				TargetAttributes = {
+					561824DA22316E0500A4BF89 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					561824EE22316E0700A4BF89 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 561824DA22316E0500A4BF89;
+					};
+					561824F922316E0700A4BF89 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 561824DA22316E0500A4BF89;
+					};
+				};
+			};
+			buildConfigurationList = 561824D622316E0500A4BF89 /* Build configuration list for PBXProject "Swift-Sample-TypingAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 561824D222316E0500A4BF89;
+			productRefGroup = 561824DC22316E0500A4BF89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				561824DA22316E0500A4BF89 /* Swift-Sample-TypingAnimation */,
+				561824EE22316E0700A4BF89 /* Swift-Sample-TypingAnimationTests */,
+				561824F922316E0700A4BF89 /* Swift-Sample-TypingAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		561824D922316E0500A4BF89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561824E922316E0700A4BF89 /* LaunchScreen.storyboard in Resources */,
+				561824E622316E0700A4BF89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561824ED22316E0700A4BF89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561824F822316E0700A4BF89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561824D722316E0500A4BF89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561824E122316E0500A4BF89 /* ViewController.swift in Sources */,
+				5659CC432232AA00003A6363 /* TypingAnimationView.swift in Sources */,
+				561824DF22316E0500A4BF89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561824EB22316E0700A4BF89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561824F422316E0700A4BF89 /* Swift_Sample_TypingAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561824F622316E0700A4BF89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561824FF22316E0700A4BF89 /* Swift_Sample_TypingAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		561824F122316E0700A4BF89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561824DA22316E0500A4BF89 /* Swift-Sample-TypingAnimation */;
+			targetProxy = 561824F022316E0700A4BF89 /* PBXContainerItemProxy */;
+		};
+		561824FC22316E0700A4BF89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561824DA22316E0500A4BF89 /* Swift-Sample-TypingAnimation */;
+			targetProxy = 561824FB22316E0700A4BF89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		561824E722316E0700A4BF89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561824E822316E0700A4BF89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5618250122316E0700A4BF89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5618250222316E0700A4BF89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5618250422316E0700A4BF89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift-Sample-TypingAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a10lab.Swift-Sample-TypingAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5618250522316E0700A4BF89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift-Sample-TypingAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a10lab.Swift-Sample-TypingAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5618250722316E0700A4BF89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift-Sample-TypingAnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a10lab.Swift-Sample-TypingAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Sample-TypingAnimation.app/Swift-Sample-TypingAnimation";
+			};
+			name = Debug;
+		};
+		5618250822316E0700A4BF89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift-Sample-TypingAnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a10lab.Swift-Sample-TypingAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Sample-TypingAnimation.app/Swift-Sample-TypingAnimation";
+			};
+			name = Release;
+		};
+		5618250A22316E0700A4BF89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift-Sample-TypingAnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a10lab.Swift-Sample-TypingAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift-Sample-TypingAnimation";
+			};
+			name = Debug;
+		};
+		5618250B22316E0700A4BF89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift-Sample-TypingAnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a10lab.Swift-Sample-TypingAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift-Sample-TypingAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		561824D622316E0500A4BF89 /* Build configuration list for PBXProject "Swift-Sample-TypingAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5618250122316E0700A4BF89 /* Debug */,
+				5618250222316E0700A4BF89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5618250322316E0700A4BF89 /* Build configuration list for PBXNativeTarget "Swift-Sample-TypingAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5618250422316E0700A4BF89 /* Debug */,
+				5618250522316E0700A4BF89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5618250622316E0700A4BF89 /* Build configuration list for PBXNativeTarget "Swift-Sample-TypingAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5618250722316E0700A4BF89 /* Debug */,
+				5618250822316E0700A4BF89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5618250922316E0700A4BF89 /* Build configuration list for PBXNativeTarget "Swift-Sample-TypingAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5618250A22316E0700A4BF89 /* Debug */,
+				5618250B22316E0700A4BF89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 561824D322316E0500A4BF89 /* Project object */;
+}
